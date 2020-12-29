@@ -52,6 +52,44 @@ byte    = 8 bit
 kilo byte = 1024 byte
 mega byte = 1024 kB
 giga byte = 1024 mB
+_______________________________________________________
+Function: It is a piece of reusable codes written for some specific task.
+Function are of two types.
+1. Pre-defined (In-built)   eg. prinf(),   calloc(),  strlen()
+2. User-defined:  Written by end-developer
+_______________________________________________________
+In C programming:
+1. Function should be declared before main().
+2. User defined has:
+
+return type + function name + (parameter list ) + {function body}
+
+3. User defined are of two types.
+	a. Call by Value
+	b. Call by Reference
+4. Function may also be used to write recussive codes. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
