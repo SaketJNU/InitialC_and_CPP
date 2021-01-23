@@ -4,7 +4,7 @@ We need to use <stdlib.h>  library file.
 1.malloc():   It allocates the continuous memroy for large size and returns the pointer 
  (with void type) of the first block. Thus me need to type-cast it as per requirement.
  Initially, the allocated blocks have garbage values.
- Syntax:        ptr1  -= (data-type1*)malloc(no of blocks * sizeof(data-type1)
+ Syntax:        ptr1  = (data-type1*)malloc(no of blocks * sizeof(data-type1))
  
  int x
  folat y = (float)x
@@ -27,7 +27,7 @@ void main()
 	printf("\n-______________Entered value in dynamic array are ____________\n");
 	for(i=0; i<n;i++)
 	{
-		printf("\nThe value at %dth position = %d", i+1, *(ptr+i));
+		printf("\nThe value at %dth position = %d and its address = %d", i+1, *(ptr+i), ptr+i);
 	}
 	printf("\nNow, The work has been completed so release the allocated memory.");
 	free(ptr);								// deleting the allocated block by using free()
