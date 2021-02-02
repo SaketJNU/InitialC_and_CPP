@@ -68,6 +68,18 @@ return type + function name + (parameter list ) + {function body}
 	a. Call by Value
 	b. Call by Reference
 4. Function may also be used to write recussive codes. 
+________________________________________________________________________________
+C++   :	It is a Obejct Oriented Programming Language.
+C     : It is Structural / Procedural Progamming Language.
+JAVA  : It is Obejct Oriented Programming Language.
+.NET  : It is Framework
+	C# : It is a Obejct Oriented Programming Language.
+Java-script : Object Based Programming Langauge. 
+VB-Script   : Object Based Programming Langauge.  (VB Visul Basic)
+HTML (Hyper Text Markup Language): It is a Scripting Language.
+
+
+
 
 
 
