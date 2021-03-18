@@ -1,4 +1,4 @@
-// Micro with Arguments
+// Macro with Arguments
 
 #include <stdio.h>
 #define AREA(x) (3.14*x*x )
