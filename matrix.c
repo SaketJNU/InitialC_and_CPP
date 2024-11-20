@@ -1,5 +1,5 @@
 /* Program to create the two dimensional array (matrix )
-A = [[3, 5, 11], [6, 4, 7]]
+int A = [[3, 5, 11], [6, 4, 7]]
 */
 
 #include<stdio.h>
